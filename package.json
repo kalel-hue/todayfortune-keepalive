@@ -1,0 +1,15 @@
+{
+  "name": "todayfortune-keepalive",
+  "version": "1.0.0",
+  "description": "Keep-alive script for TodayFortune using Puppeteer",
+  "main": "visit-frontend.js",
+  "scripts": {
+    "start": "node visit-frontend.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

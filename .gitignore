@@ -1,0 +1,6 @@
+# Git ignore for keep-alive repository
+# This repository only contains workflow files, so minimal ignore is needed
+
+.DS_Store
+Thumbs.db
+
