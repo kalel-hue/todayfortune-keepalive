@@ -2,7 +2,8 @@ const puppeteer = require('puppeteer');
 
 const TARGET_URLS = [
     'https://todayfor.vercel.app/',
-    'https://qrlinks.vercel.app/r/tt7prJwfjX'
+    'https://qrlinks.vercel.app/r/tt7prJwfjX',
+    'https://petcasso.onrender.com/'
 ];
 
 async function run() {
