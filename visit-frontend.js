@@ -24,7 +24,7 @@ async function run() {
         for (const url of TARGET_URLS) {
             console.log(`Visitting: ${url}`);
             try {
-                await page.goto(url, { waitUntil: 'networkidle0', timeout: 30000 });
+                await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
 
                 // Wait for additional 5 seconds to ensure useEffects and API calls trigger
                 await new Promise(resolve => setTimeout(resolve, 5000));
