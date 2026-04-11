@@ -1,8 +1,8 @@
-name: Keep Alive kalel-hue-1 (0,10,20...)
+name: Keep Alive kalel-hue-1 (0,30)
 
 on:
   schedule:
-    - cron: '*/6 * * * *'  # 0, 6, 12, 18, 24, 30, 36, 42, 48, 54분
+    - cron: '0,30 * * * *'  # 0, 30분
   workflow_dispatch: # 수동 실행도 가능하도록
 
 jobs:

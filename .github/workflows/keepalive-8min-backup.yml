@@ -1,8 +1,8 @@
-name: Keep Alive kalel6120-2 (3,13,23...)
+name: Keep Alive kalel6120-2 (20,50)
 
 on:
   schedule:
-    - cron: '4/6 * * * *'  # 4, 10, 16, 22, 28, 34, 40, 46, 52, 58분
+    - cron: '20,50 * * * *'  # 20, 50분
   workflow_dispatch:
 
 jobs:

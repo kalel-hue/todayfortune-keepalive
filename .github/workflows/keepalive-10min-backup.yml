@@ -1,8 +1,8 @@
-name: Keep Alive todaykalel-2 (5,15,25...)
+name: Keep Alive todaykalel-2 (25,55)
 
 on:
   schedule:
-    - cron: '5/6 * * * *'  # 5, 11, 17, 23, 29, 35, 41, 47, 53, 59분
+    - cron: '25,55 * * * *'  # 25, 55분
   workflow_dispatch:
 
 jobs:
