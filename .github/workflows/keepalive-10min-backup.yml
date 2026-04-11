@@ -2,7 +2,7 @@ name: Keep Alive todaykalel-2 (5,15,25...)
 
 on:
   schedule:
-    - cron: '5/10 * * * *'  # 5, 15, 25, 35, 45, 55분
+    - cron: '5/6 * * * *'  # 5, 11, 17, 23, 29, 35, 41, 47, 53, 59분
   workflow_dispatch:
 
 jobs:
